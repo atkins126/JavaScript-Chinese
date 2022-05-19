@@ -1,7 +1,8 @@
-# JavaScript基础
+# JavaScript基础进阶
 ## 为什么JavaScript行内样式要写到document底部？
 - JavaScript执行机制是从上往下执行的，所以浏览器加载完文档内容（DOM元素）之后再加载JS对DOM元素进行操作
 <br/>如果我们将JS放到文档的上面，那么JS找不到对应的DOM元素，也就不能对DOM元素进行操作，并且报错
+
 - 当然，我们可以通过入口函数来解决这个问题:
 ```JS
 //等页面内容全部加载完毕,包括DOM元素、图片、flash、css等才会执行入口函数中的JS代码
@@ -34,7 +35,10 @@ document.write()
 ```
 --- 
 ## 字面量
-### 在编程语言中-字面量就是固定值
+- 字面量是指由字母、数字等构成的字符串或者数值
+- 字面量只能作为值出现（键 = 值）
+- 它们是你在脚本中字面上写出来的固定的值
+- Literals represent values in JavaScript. These are fixed values—not variables—that you literally provide in your script
 ```JS
 //数字字面量(Number)
 3.15926   100   -66
@@ -63,11 +67,14 @@ JavaScript语句是发送给浏览器的命令，也就是指定浏览器去做�
 ```JS
 document.querySelector('#test-dom').style.backgroundColor = 'red'
 ```
-_JS代码可以写分号 ; 也可以不写，并没有强制的要求(如果你的老板要求你必须写，如果是你会怎么做？)_
+_JS代码规范可以写分号 ; 也可以不写，并没有强制的要求_
 ___
 ## JavaScript代码块
 在我们集中操作一个或者一块的DOM元素，会使用JS代码块形式来进行集中处理一些相关联的操作<br/>
-比如我们想让用户做出一个操作之后，改变以下俩个DOM元素属性，没有必要去分开写俩个对于DOM的操作，那样只会让我们后期重构时徒增困难
+比如用户做出一个操作，可以改变多个DOM元素属性，没有必要分开写多个DOM的操作，那样只会让我们后期重构时徒增困难
+<br/>
+这时我们可以使用构造函数来将这些动作封装起来-形成一个代码块
+
 ```JS
 function myFunction () {
   document.querySelector('#test-firstDom').innerHTML = 'Hello World'
@@ -79,17 +86,17 @@ ___
 我们可以主观认为变量是存储数据的容器，不过这只是让我们便于理解<br/>
 其实真正意义上变量是在内存中去帮我们开辟出了一块存储数据的空间，有了这片空间，我们便可以存储数据
 [![变量.png](https://s1.ax1x.com/2022/05/19/Ob2ZdA.png)](https://imgtu.com/i/Ob2ZdA)
-### 变量命名规范：
+***变量命名规范***：
 - 必须为字母开头
 - 可以是$或者_开头，但是并不建议这么做
 - 变量名称对大小写很敏感
-### 一次性声明多个变量：
+***一次性声明多个变量***：
 ```JS
 let username = "Brave-AirPig",
     age = 22,
     hobby = ["敲代码","敲代码"]
 ```
-### 一次性给多个变量赋同一个值：
+***一次性给多个变量赋同一个值***：
 ```JS
 let x , y , z = 10
 ```
@@ -103,9 +110,12 @@ ___
 早在2015年之前，JS还在使用var来声明变量
 <br/>
 在2015年之后一直到今天，JS随着时代不断的进步，ECMAScript版本迭代了很多，以ES6为一个节点，划分出了ES5版本（ES6以下都叫ES5）、ES6版本（ES6以及ES6以上版本都统称为ES6）
-- 如今我们大部分都在使用let来进行变量的声明
+
+- 如今我们常用let来进行变量的声明
 - 使用const进行常量的声明（常量即是不可变的）
-### 为什么要使用let和const？
+<br/>
+
+***为什么要使用let和const***？
 - ES6之前在JS中使用的var是有一个变量提升的(预编译)
 ```JS
 console.log(a)
@@ -137,7 +147,7 @@ if (true) {
 console.log(a)
 //访问到了10
 ```
-- const不用说，它声明的是一个常量，数据是不可以更改的
+- const声明的是一个常量，数据是不可以更改的
 ```JS
 const a = 10
 a = 20
