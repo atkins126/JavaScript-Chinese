@@ -1,42 +1,27 @@
-# 🏑 JavaScript 🏑
-## 一名合格的前端开发工程师花再多的时间在JS上都不为过的🐱‍💻
-*** 
-JavaScript是Web开发者必学的三种语言之一
-- HTML
-- CSS
-- JavaScript
-### 当然也是Web开发最重要的核心语言
-*** 
-## 了解JavaScript
-- JavaScript在1995年由Brendan Eich发明-并于1997年成为了ECMA标准
-- 函数优先的轻量级、解释型(即时编译)的编程语言
+#  JavaScript 
+## 一名合格的前端开发工程师花再多的时间在JS上都不为过🐱‍💻
+---
+
+| JavaScript是一种什么语言？ ||
+| :--: | :--: |
+| 轻量级 | 基于原型 |
+| 解释型 | 面向对象 |
+| 多范式 | 动态脚本 |
+| 命令式 | 函数优先 |
+
 --- 
-## 主要功能
-1. 嵌入动态文本于HTML页面
-2. 对浏览器时间做出响应
-3. 读写DOM元素
-4. 在数据被提交到服务器前验证数据
-5. 检测用户的浏览器信息
-6. 基于Node.js技术进行服务器端的编程
+# 🧐JavaScript可以做什么？
+- ***服务端开发*** : Node.js
+- ***桌面程序开发*** : Electron
+- ***VR开发*** : 3D游戏引擎-Three.js
+- ***APP开发*** : Cordova
+- ***嵌入式硬件应用开发*** : Ruff
+- ***游戏开发*** : Cocos2d-js
+- ***数据可视化开发*** : ECharts、Dygraphs.js、D3.js、InfoVis、Springy.js
+- ***操作系统开发*** : Node.js --> NodeOS
+- ***机器学习开发*** : TensorFlow.js
 --- 
-## JavaScript语言组成
-1. ECMAScript：描述该语言的语法以及基本对象 
-2. DOM：（document对象模型）描述处理网页内容的方法和接口
-3. BOM：（浏览器对象模型）描述浏览器进行交互的方法和接口
---- 
-## JavaScript特点
-- 脚本语言
-- 基于对象
-- 动态性
-- 跨平台性
-# JavaScript有多好玩🤩
-- 基于Node.js技术进行服务端开发
-- 基于Electrom技术进行桌面程序开发
-- 基于Cordova进行APP开发
-- 基于Ruff进行物联网硬件控制
-- 基于Cocos2d-js进行游戏开发
---- 
-## 向我反馈🚩
-如果有好的建议或者改进可以提交问题或者联系我
-### 👁‍🗨微信：
+
+## 向我反馈
+
 ![wx.jpg](https://s1.ax1x.com/2022/05/19/OHef4e.jpg)
