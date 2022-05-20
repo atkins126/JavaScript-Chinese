@@ -10,7 +10,7 @@
 | 命令式 | 函数优先 |
 
 --- 
-# 🧐JavaScript可以做什么？
+## 🧐JavaScript可以做什么？
 - ***服务端开发*** : Node.js
 - ***桌面程序开发*** : Electron
 - ***VR开发*** : 3D游戏引擎-Three.js
@@ -20,3 +20,8 @@
 - ***数据可视化开发*** : ECharts、Dygraphs.js、D3.js、InfoVis、Springy.js
 - ***操作系统开发*** : Node.js --> NodeOS
 - ***机器学习开发*** : TensorFlow.js
+---
+## 须知 👨‍🎓
+需要阅读可以将库克隆到本地
+<br/>
+因为文章中大部分图片我并没有采用图床
