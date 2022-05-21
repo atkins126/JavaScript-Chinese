@@ -20,8 +20,3 @@
 - ***数据可视化开发*** : ECharts、Dygraphs.js、D3.js、InfoVis、Springy.js
 - ***操作系统开发*** : Node.js --> NodeOS
 - ***机器学习开发*** : TensorFlow.js
----
-## 须知 👨‍🎓
-需要阅读可以将库克隆到本地
-<br/>
-因为文章中大部分图片我并没有采用图床
