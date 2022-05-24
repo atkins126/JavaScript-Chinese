@@ -5,7 +5,7 @@
 ## 仓库介绍 🤐
 这是一个关于原生 JavaScript 的仓库
 
-仓库的本意是让更多的初学者对 JavaScript 拥有一个系统性的架构
+仓库的本意是让更多的初学者对 JavaScript 拥有一个系统性的架构且使你对 JavaScript 产生丰厚的兴趣
 
 每一个概念都会成为一个独立的 ***Small Warehouse***, 每一个 ***Small Warehouse*** 相对来说都是较为饱满的
 
